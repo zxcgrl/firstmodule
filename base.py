@@ -1,8 +1,8 @@
 from telethon import TelegramClient, events, errors
 import time
 
-api_id = 14241570
-api_hash = '8463878da2bbc8105d99087852fc3ef4'
+api_id = 
+api_hash = ''
 client = TelegramClient('anon', api_id, api_hash)
 
 @client.on(events.NewMessage)
